@@ -1,0 +1,92 @@
+body {
+    background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 50px;
+}
+
+.ipl-logo{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.ipl-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color:black;
+}
+
+.player {
+    width: 23%;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.player img {
+    width: 100%;
+    height: 220px;
+    cursor: pointer;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color:black;
+}
+
+p span {
+    font-weight: 500;
+}
+
+.team-player {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.team-wrapper {
+    margin-left: 0;
+    display:flex;
+
+    
+}
+
+.team-data {
+    width: 60%;
+    margin-top: 35px;
+    margin-left: 0;
+    
+}
+
+.player-info {
+    margin-left: 0;
+    
+} 
